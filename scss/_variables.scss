@@ -1,0 +1,15 @@
+$main-color:rgb(255, 166, 0); 
+$secondary-color: black;
+$tertiary-color: white;
+$background-color :  rgb(240, 240, 240);
+$specific-color: rgb(245, 245, 175);
+
+@mixin button-style{
+    border: 1px;
+    color: $tertiary-color;
+    text-align: center;
+    font-size: small;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+}

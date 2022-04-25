@@ -1,0 +1,23 @@
+$theme-colors: (
+  "main":    $main-color,
+  "secondary":  $secondary-color,
+  "tertiary":  $tertiary-color,
+  
+);
+
+
+$utilities: (
+  "color": (
+    property: color,
+    class: text,
+    values: map-merge(
+      $theme-colors,
+      (
+        "white": $tertiary-color,
+        "main": $main-color,
+        "secondary": $secondary-color
+      )
+    )
+  ),
+  
+);

@@ -1,0 +1,208 @@
+.navbar {
+  overflow: hidden;
+  margin: 20px;
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ffa600;
+  text-decoration: none;
+}
+
+.navbar a:active {
+  color: #ffa600;
+}
+
+.navbar .search-container {
+  float: left;
+  border: solid 1px white;
+  color: white;
+  padding: 5px;
+  margin-right: 40px;
+}
+
+.navbar input {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.navbar .search-container button {
+  float: right;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.home {
+  display: -ms-grid;
+  display: grid;
+  background-image: url(/images/home_bg.jpg);
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  color: #ffa600;
+  background-color: rgba(36, 32, 32, 0.6);
+}
+
+.home .h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.homecard {
+  width: 350px;
+  background-color: rgba(36, 32, 32, 0.6);
+  color: white;
+  margin: 30px;
+  padding: 50px;
+}
+
+.display-1 {
+  margin: 60px;
+  padding: 50px;
+}
+
+i {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.bi {
+  color: #ffa600;
+  font-size: 40px;
+}
+
+h6 {
+  padding-bottom: 10px;
+}
+
+.home2 {
+  background-color: #f0f0f0;
+}
+
+.deco {
+  -webkit-text-decoration: solid 10px underline #ffa600;
+          text-decoration: solid 10px underline #ffa600;
+  text-underline-offset: 15px;
+  width: 12%;
+}
+
+.yellow {
+  background-color: #ffa600;
+}
+
+.pbg {
+  background-color: #f0f0f0;
+  padding: 15px;
+  font-size: medium;
+}
+
+.colh1 {
+  background-color: #ffa600;
+  color: white;
+  font-size: medium;
+  margin-bottom: 10px;
+  padding: auto;
+}
+
+.darkbg {
+  background-image: url(/images/newdarkbg.jpg);
+  color: white;
+  background-position: bottom;
+}
+
+.coldiv {
+  background-color: #f5f5af;
+}
+
+.coldiv2 {
+  background-color: #ffa600;
+}
+
+.contbg {
+  background-image: url(/images/newdarkbg.jpg);
+  color: white;
+  margin-bottom: 20px;
+  background-position: bottom;
+}
+
+.fbg {
+  background-image: url(/images/newdarkbg.jpg);
+  background-position: bottom;
+}
+
+.beigebtn {
+  border: #f5f5af solid 1px;
+}
+
+.nate {
+  margin-top: 70%;
+  margin-right: 43%;
+}
+
+@media all and (max-width: 480px) {
+  .nate {
+    margin-top: 470%;
+    margin-left: 30%;
+    padding: 0;
+    font-size: 4vw;
+  }
+  .homecont .homecard {
+    width: 350px;
+    background-color: rgba(36, 32, 32, 0.6);
+    color: white;
+    margin: 50px;
+    padding: 50px;
+  }
+}
+
+.cards {
+  width: 250px;
+  margin: 20px;
+}
+
+.styledlist {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: medium;
+  line-height: 30px;
+}
+
+li {
+  font-size: medium;
+  line-height: 30px;
+}
+
+.card {
+  margin: 5px;
+  width: 80px;
+  height: 300px;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

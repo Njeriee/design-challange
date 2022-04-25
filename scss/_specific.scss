@@ -1,0 +1,94 @@
+.home2{
+    background-color: $background-color;
+}
+
+.deco{
+    text-decoration: solid 10px underline $main-color;
+    text-underline-offset: 15px;
+    width:12%
+    
+    
+    
+
+}
+.yellow{
+    background-color: $main-color;
+    
+}
+.pbg{
+    background-color: $background-color;
+    padding: 15px;
+    font-size: medium;
+
+}
+.colh1{
+    background-color: $main-color;
+    color: $tertiary-color;
+    font-size: medium;
+    margin-bottom: 10px;
+    padding: auto;
+}
+.darkbg{
+    background-image: url(/images/newdarkbg.jpg);
+    color: $tertiary-color;
+    background-position:bottom;
+}
+.coldiv{
+    background-color: $specific-color;
+}
+
+.coldiv2{
+    background-color: $main-color;
+}
+
+.contbg{
+    background-image: url(/images/newdarkbg.jpg);
+    color: $tertiary-color;
+    margin-bottom: 20px;
+    background-position: bottom;
+}
+
+.fbg{
+
+    background-image: url(/images/newdarkbg.jpg);
+    background-position: bottom;
+}
+
+.beigebtn{
+    border: $specific-color solid 1px;
+}
+
+.nate{
+    margin-top: 70%; margin-right: 43%;
+}
+
+@media all and (max-width: 480px){
+ 
+    .nate{
+        margin-top: 470%; margin-left: 30%;
+        padding: 0;
+        font-size: 4vw;
+    }
+
+    .homecont{
+        .homecard {
+            width: 350px;
+            background-color: rgba(36, 32, 32, 0.6);
+            color: $tertiary-color;
+            margin: 50px;
+            padding: 50px;
+        }
+    }
+}
+
+.cards{
+    width: 250px;
+    margin: 20px;
+}
+
+.styledlist{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+

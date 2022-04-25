@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'home';
+@import 'utilities';
+@import 'specific';
+
+
+body{
+    // display: grid;
+    background-color: $tertiary-color;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-size:medium;
+    line-height: 30px;
+}
+
+li{
+    font-size: medium;
+    line-height: 30px;
+}
+.card{
+    margin: 5px; 
+    width: 80px; 
+    height: 300px;
+    color: $secondary-color;
+}
+
+

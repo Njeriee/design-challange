@@ -1,0 +1,98 @@
+
+
+.navbar{
+    overflow:hidden;
+    margin: 20px;
+    margin-right: 50px;
+    display: flex;
+    color: $tertiary-color;
+    
+
+}
+
+.navbar a{
+    float: right;
+    display: block;
+    color: $secondary-color;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover{
+    color: $main-color;
+    text-decoration: none;
+}
+.navbar a:active{
+    color: $main-color;
+}
+
+.navbar .search-container{
+    float: left;
+    border: solid 1px $tertiary-color;
+    // margin: 10px;
+    color: $tertiary-color;
+    padding: 5px;
+    margin-right: 40px;
+}
+.navbar input{
+    background-color: transparent;
+    border: none;
+    color: $tertiary-color;
+    
+
+}
+
+.navbar .search-container button{
+    float: right;
+    border: none;
+    background-color: transparent;
+    color: $tertiary-color;
+}
+
+.home{
+    display: grid;
+    // height: 100%;
+    background-image: url(/images/home_bg.jpg);
+    background-position:center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: $main-color;
+    background-color: rgba(36, 32, 32, 0.6);
+    .h1{
+        margin: 0;
+        padding: 0;
+    }
+    
+   
+}
+
+.homecard {
+    width: 350px;
+    background-color: rgba(36, 32, 32, 0.6);
+    color: $tertiary-color;
+    margin: 30px;
+    padding: 50px;
+}
+
+.display-1{
+    margin: 60px;
+    padding: 50px;
+}
+
+i{
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+
+.bi {
+    color: $main-color;
+    font-size: 40px;
+}
+h6{
+    padding-bottom: 10px;
+}
